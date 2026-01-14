@@ -5,9 +5,9 @@ const TransactionList = ({ transactions, deleteTransaction }) => {
     <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
       <div className="p-6 border-b border-gray-50 flex justify-between items-center">
         <h2 className="text-lg font-bold text-gray-800">So'nggi amallar</h2>
-        <button className="text-sm text-indigo-600 font-medium hover:underline">
+        {/* <button className="text-sm text-indigo-600 font-medium hover:underline">
           Hammasini ko'rish
-        </button>
+        </button> */}
       </div>
 
       <div className="divide-y divide-gray-50">

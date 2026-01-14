@@ -1,5 +1,4 @@
 import { Wallet, ArrowUpRight, ArrowDownRight } from 'lucide-react';
-import TransactionForm from './TransactionForm';
 
 const Dashboard = ({income, expense, balance}) => {
   return (
