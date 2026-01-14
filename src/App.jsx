@@ -1,4 +1,3 @@
-import { BrowserRouter } from "react-router-dom";
 import Dashboard from "./components/Dashboard";
 import TransactionList from "./components/TransactionsList";
 import TransactionForm from "./components/TransactionForm";
@@ -80,7 +79,6 @@ function App() {
 });
   return (
     <>
-      <BrowserRouter>
         <Dashboard
           balance={balance}
           income={totalIncome}
@@ -102,7 +100,6 @@ function App() {
           deleteTransaction={deleteTransaction}
         />)}
         <TransactionForm onAdd={setTransactions} transactions={transactions} />
-      </BrowserRouter>
     </>
   );
 }
